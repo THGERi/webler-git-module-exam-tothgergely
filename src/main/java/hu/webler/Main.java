@@ -10,8 +10,12 @@ public class Main {
     public static void main(String[] args) {
         Dog dog = new Dog();
         Cat cat = new Cat();
+        Dog dog1 = new Dog();
+        Cat cat1 = new Cat();
 
         dog.bark();
         cat.mehow();
+        dog1.bark();
+        cat1.mehow();
     }
 }
